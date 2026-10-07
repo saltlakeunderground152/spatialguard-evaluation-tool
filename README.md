@@ -4,15 +4,20 @@ Welcome to the official public storefront for the SpatialGuard Security Pipeline
 
 ## 📊 Product & Licensing Matrix
 
-| Capabilities | Free Evaluation Tier | Developer Tier License | Enterprise Tier Suite |
-| :--- | :--- | :--- | :--- |
-| **Pricing** | **Free (\$0)** | **$499 / Year** | **$1,999 / Year** |
-| **Throughput Architecture** | Single-Threaded Sequential | Multi-Threaded Parallel | Multi-Threaded Parallel |
-| **Core Process Engine** | `trial_parser.py` (Local) | POSIX `pthread` Engine | Custom Matrix Layouts |
-| **Cryptographic Handshake** | Basic Local Check | Secure Node Verification | Dynamic Diffie-Hellman |
-| **Support Infrastructure** | Community Wiki | Email Support Ticket | 24/7 Dedicated Support |
-| **Deployment Rights** | Evaluation Only | Commercial Production | Commercial Production |
-| **Acquisition Link** | **[Download Local Trial](#-1-free-public-evaluation-tier)** | **[Buy Developer Tier ($499)](https://stripe.com)** | **[Buy Enterprise Tier ($1,999)](https://stripe.com)** |
+* **1. Free Public Evaluation Tier (\$0)**
+  * Single-Threaded Sequential Core Engine (`trial_parser.py`)
+  * Basic Local Integrity Validation Checks
+  * [Download Local Trial Code](#-1-free-public-evaluation-tier)
+
+* **2. Developer Tier License (\$499 / Year)**
+  * Multi-Threaded Parallel POSIX `pthread` Engine
+  * Secure Node & Stream Verification down to the byte
+  * **[Buy Developer Tier License (\$499)](https://stripe.com)**
+
+* **3. Enterprise Tier Suite (\$1,999 / Year)**
+  * Custom Matrix Layouts & Dynamic Diffie-Hellman Handshakes
+  * 24/7 Dedicated System Implementation Support Engineering
+  * **[Buy Enterprise Tier Suite (\$1,999)](https://stripe.com)**
 
 ---
 
@@ -30,20 +35,6 @@ Prospective clients can use our standalone evaluation script locally to verify f
    ```bash
    python trial_parser.py
    ```
-
----
-
-## ⚡ 2. Commercial Processing Production Tiers
-
-To eliminate execution latency, scale to concurrent multi-stream telemetry data, and activate real-time key dispensation, acquire an automated production activation license.
-
-* **[Acquire Developer Tier Activation Code ($499)]** -> https://stripe.com
-  * Unlocks the native parallel C-compiled pipeline layer.
-  * Dynamically parses multi-source enterprise streams down to the byte.
-
-* **[Acquire Enterprise Tier Activation Code ($1,999)]** -> https://stripe.com
-  * Integrates dynamic runtime key rotations and custom multi-matrix ciphers.
-  * Includes dedicated implementation support engineering hours.
 
 ---
 
