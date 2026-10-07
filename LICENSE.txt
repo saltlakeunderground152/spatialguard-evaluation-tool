@@ -1,0 +1,14 @@
+SPATIALGUARD EVALUATION LICENSE AGREEMENT
+
+Copyright (c) 2026 saltlakeunderground152. All rights reserved.
+
+1. LICENSE GRANT: The Licensor grants the User a non-exclusive, non-transferable, revocable trial license to use the standalone evaluation software ('trial_parser.py') solely for internal testing and validation of system capabilities on historical log datasets up to 35 bytes in size.
+
+2. RESTRICTIONS: The User shall not:
+   (a) Modify, reverse-engineer, decompile, or disassemble the sliding-key matrix or cyclic mathematical algorithms.
+   (b) Utilize the software on live production datasets exceeding the 35-byte trial limit without purchasing a commercial license tier.
+   (c) Distribute, lease, or sub-license the software source code to third parties.
+
+3. OWNERSHIP OF INTELLECTUAL PROPERTY: The Licensor retains exclusive ownership of all right, title, and interest in and to the SpatialGuard Security Pipeline, including all proprietary C network backend architectures, ring buffer core pointer systems, and sliding-key matrix layers.
+
+4. TERMINATION: This license terminates automatically if the User violates any configuration constraints specified herein.
