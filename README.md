@@ -1,25 +1,38 @@
-# SpatialGuard Evaluation Tool
+# SpatialGuard Security Pipeline — Evaluation Tool
 
-Proprietary free trial software for historical log file encryption and sliding-key validation. 
+Welcome to the public evaluation storefront for the SpatialGuard Security Pipeline. This repository contains the standalone client-side file parsing application designed to verify our industrial rolling sliding-key matrix.
 
-This standalone utility allows prospective corporate clients to feed historical logs and files locally into our sliding-key matrix to verify system capabilities.
+## 🛠️ Public Trial Deployment
 
-## Usage
-Run the evaluation tool locally on your testing files:
-`python3 trial_parser.py`
+Prospective corporate clients can use this tool locally to feed historical logs and files into the cipher matrix to verify integrity and system compliance.
 
-## 🚀 Upgrade to Enterprise Premium
-To upgrade from the single-threaded evaluation tool to our industrial, multi-threaded C network engine capable of handling thousands of concurrent corporate streams, secure your commercial license instantly:
+### Quick Start
+1. Clone this repository to your local workspace.
+2. Ensure you have your project requirements installed:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the evaluation script against your test data blocks:
+   ```bash
+   python trial_parser.py
+   ```
 
-* **[Get Instant Enterprise Access & License Key](https://github.com)** 
-*(Payment processing and secure delivery of the multi-threaded `parser.c` architecture are fully automated. Your premium production files and cryptographic license keys will be delivered immediately to your registered corporate email upon successful checkout.)*
+---
 
-## 💳 Commercial Licensing & Pricing Tiers
-Select the automated license tier that matches your infrastructure requirements:
+## ⚡ Upgrade to SpatialGuard Enterprise Processing
 
-* **Startup License (\$499 / one-time):** Full access to the multi-threaded `parser.c` engine, supporting up to 50 concurrent corporate streams. Includes automated email setup documentation.
-* **Enterprise License (\$1,999 / one-time):** Unlimited concurrent streams, full POSIX thread optimizations, and integration configurations for high-pressure production environments.
+To scale to enterprise workloads, unlock simultaneous multi-threaded parsing, and establish dynamic cryptographic handshakes, upgrade to our premium binary engine suites.
 
-*All payments are processed securely via our automated fulfillment pipeline. Your production binaries, source files, and cryptographic signature keys are generated and dispatched immediately upon checkout.*
+### 💳 Commercial Acquisition Channels
 
-* **Annual Maintenance & Cryptographic Core Updates (\$899 / year):** Optional recurring subscription. Grants automated access to quarterly matrix performance patches, sliding-key rotation updates, and continuous compatibility upgrades for new infrastructure environments.
+* **[Get Developer Tier License (\$499)]** -> https://stripe.com
+  * Includes the parallel POSIX thread (`pthread`) compiler matrix core.
+  * Capable of handling thousands of streams concurrently down to the individual byte.
+
+* **[Get Enterprise Tier License (\$1,999)]** -> https://stripe.com
+  * Adds custom matrix layouts, dynamic Diffie-Hellman secret key exchange protocols, and 24/7 dedicated system engineering support.
+
+---
+
+## ⚖️ Evaluation Copyright & License
+This public tool is provided strictly for commercial evaluation purposes. Unauthorized reverse engineering or hosting of the core matrix mechanics for commercial distribution is strictly prohibited. © 2026 SpatialGuard LLC. All rights reserved.
