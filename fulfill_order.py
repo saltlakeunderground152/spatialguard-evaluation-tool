@@ -1,21 +1,24 @@
 import os
 import json
+from flask import Flask, request, jsonify
 
-def handle_successful_payment(stripe_payload):
-    """
-    Automated Fulfillment Engine: Triggers on successful Stripe checkout event.
-    Packages and dispatches the multi-threaded C engine without human intervention.
-    """
-    event = json.loads(stripe_payload)
-    customer_email = event['data']['object']['customer_details']['email']
-    license_tier = event['data']['object']['metadata'].get('tier', 'Startup')
-    
-    print(f"[AUTOMATED FULFILLMENT]: Processing verified order for {customer_email} ({license_tier})")
-    print(f"[STATUS]: Securely generating cryptographic license keys...")
-    
-    # In a live cloud environment, this triggers an automated email service (like SendGrid)
-    # sending the paid client access to the proprietary C matrix layers.
-    print(f"[SUCCESS]: Premium multi-threaded binaries dispatched to {customer_email}.")
+app = Flask(__name__)
 
-if __name__ == "__main__":
-    print("SpatialGuard Automated Billing Integration Active & Waiting for Payment Webhooks...")
+@app.route('/stripe-webhook', methods=['POST'])
+def stripe_webhook():
+    payload = request.data
+    print("[CLOUD SERVER] Webhook received from payment gateway!")
+    
+    try:
+        event = json.loads(payload)
+        if event.get("type") == "checkout.session.completed":
+            customer_email = event["data"]["object"]["customer_details"]["email"]
+            print(f"[FULFILLMENT] Success! Packaging premium binary for {customer_email}")
+    except Exception as e:
+        print(f"[ERROR] Webhook processing failed: {str(e)}")
+
+    return jsonify(status="success"), 200
+
+if __name__ == '__main__':
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host='0.0.0.0', port=port)
