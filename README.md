@@ -25,11 +25,11 @@ To scale to enterprise workloads, unlock simultaneous multi-threaded parsing, an
 
 ### 💳 Commercial Acquisition Channels
 
-* **[Get Developer Tier License (\$499)]** -> https://stripe.com
+* **[Get Developer Tier License (\$499)](https://stripe.com)**
   * Includes the parallel POSIX thread (`pthread`) compiler matrix core.
   * Capable of handling thousands of streams concurrently down to the individual byte.
 
-* **[Get Enterprise Tier License (\$1,999)]** -> https://stripe.com
+* **[Get Enterprise Tier License (\$1,999)](https://stripe.com)**
   * Adds custom matrix layouts, dynamic Diffie-Hellman secret key exchange protocols, and 24/7 dedicated system engineering support.
 
 ---
