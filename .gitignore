@@ -22,3 +22,4 @@ ring_test
 load_test.py
 server_core.c
 deploy_config.h
+Makefile
