@@ -1,14 +1,32 @@
-SPATIALGUARD EVALUATION LICENSE AGREEMENT
+SPATIALGUARD SECURITY PIPELINE - END-USER EVALUATION LICENSE AGREEMENT
 
-Copyright (c) 2026 saltlakeunderground152. All rights reserved.
+Copyright (c) 2026 SpatialGuard. All rights reserved.
 
-1. LICENSE GRANT: The Licensor grants the User a non-exclusive, non-transferable, revocable trial license to use the standalone evaluation software ('trial_parser.py') solely for internal testing and validation of system capabilities on historical log datasets up to 35 bytes in size.
+IMPORTANT: PLEASE READ THIS EVALUATION LICENSE AGREEMENT CAREFULLY BEFORE DOWNLOADING, 
+INSTALLING, OR USING THE ENCLOSED PIPELINE SCRIPT ("TRIAL_PARSER.PY"). BY USING THIS 
+SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT.
 
-2. RESTRICTIONS: The User shall not:
-   (a) Modify, reverse-engineer, decompile, or disassemble the sliding-key matrix or cyclic mathematical algorithms.
-   (b) Utilize the software on live production datasets exceeding the 35-byte trial limit without purchasing a commercial license tier.
-   (c) Distribute, lease, or sub-license the software source code to third parties.
+1. LICENSE GRANT AND INTENDED USE
+SpatialGuard hereby grants you a limited, non-exclusive, non-transferable, revocable 
+license to execute the single-threaded public evaluation tool ("trial_parser.py") 
+strictly for internal validation, benchmark testing, and performance compatibility 
+evaluation against historical system log architectures.
 
-3. OWNERSHIP OF INTELLECTUAL PROPERTY: The Licensor retains exclusive ownership of all right, title, and interest in and to the SpatialGuard Security Pipeline, including all proprietary C network backend architectures, ring buffer core pointer systems, and sliding-key matrix layers.
+2. COMMERCIAL RESTRICTIONS AND MOAT PROTECTION
+This license does not grant any rights to production deployment, commercial hosting, 
+redistribution, or extraction of the underlying sliding-key cipher matrix mechanics. 
+The multi-threaded high-throughput execution engines, low-latency C ring buffer 
+architectures, and post-quantum socket daemons are proprietary commercial property. 
+Any attempt to reverse-engineer, decompile, modify, or scale this evaluation code 
+for production use without an explicit commercial license agreement is strictly 
+prohibited and protected under applicable intellectual property laws.
 
-4. TERMINATION: This license terminates automatically if the User violates any configuration constraints specified herein.
+3. COPYRIGHT AND ADMINISTRATIVE OWNERSHIP
+All proprietary algorithmic designs, structural loop frameworks, and branding elements 
+remain the sole and exclusive property of the administrative account profile.
+
+4. COMMERCIAL TRANSITION AND ENTERPRISE INQUIRIES
+To transition from local sandbox testing to an automated, high-concurrency commercial 
+deployment, users must acquire an Enterprise Licensing Tier. For official procurement 
+requests, service level agreements (SLAs), or customized matrix integration support, 
+please initiate a formal validation ticket directly through the main repository dashboard.
