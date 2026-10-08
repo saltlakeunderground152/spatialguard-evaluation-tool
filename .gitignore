@@ -1,0 +1,17 @@
+# Block premium core engine source code
+parser.c
+*.c
+*.h
+
+# Block compiled binaries, libraries, and build outputs
+*.o
+*.out
+*.so
+*.dylib
+build/
+dist/
+
+# Block system junk files
+.DS_Store
+.AppleDouble
+.LSOverride
