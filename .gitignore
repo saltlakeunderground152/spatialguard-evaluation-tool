@@ -20,3 +20,4 @@ dist/
 dh_test
 ring_test
 load_test.py
+server_core.c
