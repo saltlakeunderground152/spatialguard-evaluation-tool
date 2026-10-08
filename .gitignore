@@ -24,3 +24,4 @@ server_core.c
 deploy_config.h
 Makefile
 server_core
+LAUNCH_MANIFEST.txt
