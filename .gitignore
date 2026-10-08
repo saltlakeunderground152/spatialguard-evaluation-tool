@@ -15,3 +15,8 @@ dist/
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Explicitly ignore local Phase 1 & Phase 3 test modules
+dh_test
+ring_test
+load_test.py
